@@ -69,9 +69,9 @@ analise-ecommerce/
 ├── 📁 queries/
 │ ├── 📄 analise_rentabilidade.sql
 │ ├── 📄 distribuicao_metodos.sql
-│ └── 📄 insights_estrategicos.sql
 └── 📁 resultados/
-└── 📄 metricas_principais.csv
+└── 📄resultados_analise_rentabilidade.png
+└── 📄resultados_distribuição_metodos.png
 
 text
 
