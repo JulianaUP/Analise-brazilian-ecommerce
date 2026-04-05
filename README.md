@@ -1,50 +1,50 @@
 # Analise-brazilian-E-commerce
 Analisando dataset de um ecommerce brasileiro ( primeiros passos em SQL e dados)
-# 📊 Análise de Métodos de Pagamento - E-commerce
+# Análise de Métodos de Pagamento - E-commerce
 
-## 📖 Sobre o Projeto
+##Sobre o Projeto
 Análise estratégica de rentabilidade e performance dos métodos de pagamento em dataset de e-commerce público do Kaggle.
 
 **Fonte dos Dados**: [Dataset E-commerce Brazilian](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) - Olist Store
 
-## 🎯 Objetivos
+## Objetivos
 - Analisar rentabilidade por método de pagamento
 - Identificar oportunidades de otimização financeira
 - Fornecer insights baseados em dados para tomada de decisão
 
-## 📊 Principais Descobertas
+## Principais Descobertas
 
 ### 🏆 Ranking de Rentabilidade:
 | Método | Transações | Receita Total | Margem |
 |--------|------------|---------------|---------|
-| 🥇 **Boleto** | 19,784 | R$ 2.8M | **98.16%** |
-| 🥈 **Cartão de Débito** | 1,529 | R$ 217K | **97.92%** |
-| 🥉 **Cartão de Crédito** | 76,795 | R$ 12.5M | **96.92%** |
-| 🔄 **Voucher** | 5,775 | R$ 379K | **92.00%** |
+| **Boleto** | 19,784 | R$ 2.8M | **98.16%** |
+| **Cartão de Débito** | 1,529 | R$ 217K | **97.92%** |
+| **Cartão de Crédito** | 76,795 | R$ 12.5M | **96.92%** |
+| **Voucher** | 5,775 | R$ 379K | **92.00%** |
 
 ## 💡 Insights Estratégicos
 
-### 🎯 **Boleto - O Campeão de Rentabilidade**
+### **Boleto - O Campeão de Rentabilidade**
 - **Maior margem líquida**: 98.16%
 - **Custo operacional baixo**: 1.5% + R$ 0.50 por transação
 - **Recomendação**: Incentivar para compras acima de R$ 200
 
-### 💳 **Cartão de Crédito - Volume vs Custo**
+### **Cartão de Crédito - Volume vs Custo**
 - **Domina 77% das transações**
 - **Custo mais alto**: 2.9% + R$ 0.30
 - **Oportunidade**: Negociar taxas com operadoras
 
-### 💸 **Cartão de Débito - O Subutilizado**
+### **Cartão de Débito - O Subutilizado**
 - **Apenas 1.5% do volume total**
 - **Margem excelente**: 97.92%
 - **Estratégia**: Campanhas de cashback
 
-### 🎫 **Voucher - Atenção Necessária**
+### **Voucher - Atenção Necessária**
 - **Margem mais baixa**: 92.00%
 - **Custo alto**: 8% por transação
 - **Ação**: Revisar programa de fidelidade
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Banco de Dados**: PostgreSQL (via Supabase)
 - **Análise**: SQL Avançado
 - **Dataset**: Olist E-commerce (Kaggle)
@@ -52,12 +52,12 @@ Análise estratégica de rentabilidade e performance dos métodos de pagamento e
 
 ## 📈 Metodologia
 
-### 📋 Queries Desenvolvidas:
+### Queries Desenvolvidas:
 1. **Análise de Rentabilidade** - Custos operacionais por método
 2. **Distribuição de Transações** - Volume e valor médio
 3. **Análise Comparativa** - Performance entre métodos
 
-### 🔧 Pressupostos de Custos:
+###  Pressupostos de Custos:
 - **Cartão de Crédito**: 2.9% + R$ 0.30
 - **Boleto**: 1.5% + R$ 0.50  
 - **Débito**: 1.9% + R$ 0.25
@@ -75,7 +75,7 @@ analise-ecommerce/
 
 text
 
-## 🚀 Como Reproduzir a Análise
+## Como Reproduzir a Análise
 
 1. **Acesse o Dataset**: 
    ```bash
@@ -92,7 +92,7 @@ Compare com as métricas encontradas
 
 Adapte os custos para sua realidade
 
-📊 Resultados Detalhados
+Resultados Detalhados
 Distribuição de Transações:
 Cartão de Crédito: 77.4%
 
@@ -111,7 +111,7 @@ Débito: R$ 142.57
 
 Voucher: R$ 65.70
 
-🤝 Contribuição
+Contribuição
 Contribuições são bem-vindas! Areas de melhoria:
 
 Análise de sazonalidade
