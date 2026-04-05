@@ -14,7 +14,7 @@ Análise estratégica de rentabilidade e performance dos métodos de pagamento e
 
 ## Principais Descobertas
 
-### 🏆 Ranking de Rentabilidade:
+### Ranking de Rentabilidade:
 | Método | Transações | Receita Total | Margem |
 |--------|------------|---------------|---------|
 | **Boleto** | 19,784 | R$ 2.8M | **98.16%** |
@@ -22,7 +22,7 @@ Análise estratégica de rentabilidade e performance dos métodos de pagamento e
 | **Cartão de Crédito** | 76,795 | R$ 12.5M | **96.92%** |
 | **Voucher** | 5,775 | R$ 379K | **92.00%** |
 
-## 💡 Insights Estratégicos
+## Insights Estratégicos
 
 ### **Boleto - O Campeão de Rentabilidade**
 - **Maior margem líquida**: 98.16%
@@ -50,7 +50,7 @@ Análise estratégica de rentabilidade e performance dos métodos de pagamento e
 - **Dataset**: Olist E-commerce (Kaggle)
 - **Ferramentas**: Consultas diretas no banco
 
-## 📈 Metodologia
+## Metodologia
 
 ### Queries Desenvolvidas:
 1. **Análise de Rentabilidade** - Custos operacionais por método
